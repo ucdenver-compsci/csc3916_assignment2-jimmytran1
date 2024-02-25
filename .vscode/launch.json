@@ -20,6 +20,7 @@
             ],
             "type": "node",
             "request": "launch",
+            "envFile": "${workspaceFolder}/.env",
             "name": "Launch Program",
             "skipFiles": [
                 "<node_internals>/**"
